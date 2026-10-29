@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moda</title>
+    <link rel="icon" type="image/png" href="IMAGENS/calculator.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="media.html">Média</a>
+        <a href="moda.html">Moda</a>
+        <a href="mediana.html">Mediana</a>
+        <a href="quiz.html">Quiz</a>
+    </nav>
+
+    <main>
+
+        <section>
+
+            <section>
+
+    <h2>Moda</h2>
+
+    <div class="destaque-inicio">
+
+        <img src="IMAGENS/moda.png" alt="Imagem sobre moda">
+
+        <div class="texto-destaque">
+
+            <h3>O que é a moda?</h3>
+
+            <p>
+               A moda é o valor que aparece com maior frequência em um conjunto de dados.
+                Ela pode ser utilizada para identificar o número de ocorrências mais comum em uma pesquisa, 
+                como a idade mais frequente dos alunos, o número de calçado mais usado ou a nota mais obtida em uma prova.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- O restante do conteúdo da página continua aqui -->
+
+            <!-- EIXO E ALIADOS -->
+
+            <div class="blocos-guerra">
+
+                <button class="bloco-guerra" onclick="mostrarBlocoGuerra('eixo')">
+                    <h3>O que é?</h3>
+
+                    <p>
+                       A moda é uma das principais medidas de tendência central da Estatística. Ela não é calculada por meio de uma soma ou divisão, como acontece na média aritmética. Para encontrar a moda, basta observar qual valor se repete mais vezes
+                    </p>
+
+                    <span>Clique para saber mais</span>
+                </button>
+
+                <div class="seta-guerra">
+                    →
+                </div>
+
+                <button class="bloco-guerra" onclick="mostrarBlocoGuerra('aliados')">
+                    <h3>A Moda no ENEM</h3>
+
+                    <p>
+                      No ENEM, a moda pode aparecer em questões que apresentam tabelas, gráficos ou listas de dados. Para resolvê-las, é necessário observar qual informação aparece com maior frequência.
+Exemplo:
+
+Notas: 5, 6, 7, 7, 8, 9
+
+A moda é 7, porque essa é a nota que mais se repete.
+                    </p>
+
+                    <span>Clique para saber mais</span>
+                </button>
+
+            </div>
+
+           
+            <div id="eixo" class="conteudo-guerra">
+
+            
+
+                <p>
+                    Um conjunto pode ter apenas uma moda, mais de uma moda ou nenhuma moda.
+
+                
+            </div>
+
+            
+
+            <div id="aliados" class="conteudo-guerra">
+
+                
+
+                <p>
+                  Leia atentamente os dados apresentados e conte quantas vezes cada valor aparece antes de escolher a resposta.
+
+                </p>
+
+                
+
+            </div>
+
+            <!-- LINHA DO TEMPO -->
+
+            <div class="linha-tempo">
+
+                <h3>Linha do Tempo</h3>
+
+                <div class="anos">
+
+                    <button onclick="mostrarAno('ano1939', this)">
+                        Frequência
+                    </button>
+
+                    <button onclick="mostrarAno('ano1941', this)">
+                        Tipos de moda
+
+                    </button>
+
+                    <button onclick="mostrarAno('ano1942', this)">
+                       Moda em gráficos
+
+                    </button>
+
+                    <button onclick="mostrarAno('ano1944', this)">
+                        Moda e média aritmética
+                    </button>
+
+                    <button onclick="mostrarAno('ano1945', this)">
+                        Táticas para o ENEM
+                    </button>
+
+                </div>
+
+                
+
+                <div id="ano1939" class="evento">
+
+                    <h4>Frequência</h4>
+
+                    <p>
+                        Frequência é a quantidade de vezes que um valor aparece em um conjunto de dados. 
+                        Ela ajuda a descobrir qual número é o mais comum.
+
+                    </p>
+
+                    
+
+                </div>
+
+               
+
+                <div id="ano1941" class="evento">
+
+                    <h4>Tipos de Moda</h4>
+
+                    <p>
+                        Um conjunto pode ser <strong>unimodal</strong>, quando possui uma moda;
+                         <strong>bimodal</strong>
+                         
+                        , quando possui duas modas; ou <strong>amodal</strong>,
+                          quando não apresenta nenhum valor repetido.
+
+                  
+
+                </div>
+
+                
+
+                <div id="ano1942" class="evento">
+
+                    <h4>Moda em Gráficos</h4>
+
+                    <p>
+                         
+                        A moda nos gráficos nos ajuda a identificar rapidamente qual informação se repete
+                        mais vezes. Para encontrá-la, basta observar a barra mais alta em um gráfico de 
+                        barras ou o valor que aparece mais vezes nos dados apresentados.
+
+                      
+                    </p>
+
+                    <p> <strong>Exemplo:</strong> se um gráfico mostra os sabores de sorvete preferidos de uma turma, o 
+                        sabor com a barra mais alta representa a moda, pois foi o mais escolhido pelos alunos.</p>
+
+                    
+                </div>
+
+                
+
+                <div id="ano1944" class="evento">
+
+                    <h4>Moda e Média Aritmética</h4>
+
+                    <p>
+                       A moda e a média aritmética são medidas de tendência central usadas para
+                        analisar e interpretar conjuntos de dados. A moda corresponde ao valor
+                         que aparece com maior frequência. Por exemplo, no conjunto 2, 4, 4, 6 e 8, 
+                         a moda é 4.
+
+                    </p>
+
+                    <p>
+                        Já a <strong>média aritmética</strong> é calculada somando todos os valores e 
+                        dividindo o resultado pela quantidade de dados. No conjunto 2,
+                         4, 4, 6 e 8, temos:
+
+                    </p>
+
+                    <p>
+                       <strong>(2 + 4 + 4 + 6 + 8) ÷ 5 = 24 ÷ 5 = 4,8</strong>
+                    </p>
+
+                    <p>
+                        Assim, a moda é <strong>4</strong> e a média aritmética é <strong>4,8</strong>. Essas medidas
+                        ajudam a compreender melhor as informações de uma pesquisa ou
+                        situação do cotidiano.
+
+                    </p>
+
+                </div>
+
+                
+
+                <div id="ano1945" class="evento">
+
+                    <h4>Táticas para o ENEM</h4>
+
+                    <p>
+                        No ENEM, observe tabelas e gráficos com atenção. Identifique a maior frequência 
+                        e verifique qual valor ou categoria está relacionada a ela.
+
+
+                    </p>
+
+                    
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+       <p>Projeto Matemática</p>
+        <p>Colégio São Luiz - unidade 3 - Anna Luiza Freitas e Lavínia Freitas</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
